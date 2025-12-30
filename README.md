@@ -1,16 +1,94 @@
-# React + Vite
+📝 To-Do List Application (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly To-Do List application built using React.js that helps users manage daily tasks efficiently. The app allows users to add, update, mark, and delete tasks with a clean and responsive UI.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Add new tasks
 
-## React Compiler
+✏️ Edit existing tasks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Mark tasks as completed
 
-## Expanding the ESLint configuration
+❌ Delete tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🗂️ Organized task list
+
+📱 Responsive design
+
+🛠️ Tech Stack
+
+Frontend: React.js
+
+Styling: CSS / Bootstrap (or your choice)
+
+State Management: React Hooks (useState)
+
+📂 Project Structure
+todo-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── TodoList.js
+│   │   ├── TodoItem.js
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+├── package.json
+└── README.md
+
+⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+# Clone the repository
+git clone https://github.com/your-username/todo-react-app.git
+
+# Navigate to project directory
+cd todo-react-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+
+The app will run on:
+👉 http://localhost:3000
+
+🧠 How It Works
+
+Uses React functional components
+
+State is managed using useState
+
+Tasks are stored temporarily in memory (can be extended using Local Storage or a backend)
+
+Component-based architecture ensures clean and reusable code
+
+📌 Future Enhancements
+
+💾 Local Storage / Database integration
+
+🔍 Search and filter tasks
+
+🌙 Dark mode
+
+🔔 Task reminders
+
+🔐 User authentication
+
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+🙌 Acknowledgement
+
+Built with ❤️ using React.js as a learning project.
